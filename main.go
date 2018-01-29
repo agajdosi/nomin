@@ -42,5 +42,6 @@ func main() {
 
 	beego.Router("/", &controllers.IndexController{})
 	beego.Router("/healthz", &controllers.HealthzController{})
+
 	beego.Run()
 }
